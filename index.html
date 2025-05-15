@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <meta name="description" content="Teste prático para vaga de Front End Júnior no Grupo Ideal Trends. Avaliação de HTML, CSS e organização de código.">
+  <meta property="og:title" content="Teste Front End - Ideal Trends">
+  <meta property="og:description" content="Desenvolvimento de uma página com HTML e CSS para avaliação técnica.">
+  <meta name="author" content="Guilherme Jesus Sales">
+  <title>Desenvolvedor Front End Júnior | Teste Ideal Trends</title>
+</head>
+
+<body>
+  <header>
+    <section class="contact">
+      <div class="container telphone">
+        <span>11 1234-1234</span>
+        <span>11 1234-1234</span>
+      </div>
+    </section>
+
+    <section class="navegation">
+      <div class="container menu-container">
+        <figure>
+          <img src="./assets/logo.webp" alt="Grupo Ideal Trends Logotipo">
+          <figcaption>Logotipo do Grupo Ideal Trends</figcaption>
+        </figure>
+
+
+
+        <nav>
+          <button class="mobile-menu" aria-label="Abrir menu de navegação"></button>
+          <div class="bg-blur"></div>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li class="drop">
+              <a href="#">Empresa</a>
+              <ul class="submenu">
+                <li><a href="#">Submenu 1</a></li>
+                <li><a href="#">Submenu 1</a></li>
+                <li><a href="#">Submenu 1</a></li>
+                <li class="sub-drop">
+                  <a href="#">Submenu 1</a>
+                  <ul class="submenu-drop">
+                    <li><a href="#">Submenu 2</a></li>
+                    <li><a href="#">Submenu 2</a></li>
+                    <li><a href="#">Submenu 2</a></li>
+                    <li><a href="#">Submenu 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </li>
+            <li><a href="#">Clientes</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </header>
+
+
+  <section id="splide" class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide"><img src="./assets/image1.webp" alt="Imagem 1"></li>
+        <li class="splide__slide"><img src="./assets/image2.webp" alt="Imagem 2"></li>
+      </ul>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <section class="quesitos">
+      <div class="infos">
+        <h1>Teste de HTML e CSS</h1>
+        <p>Quesitos da avaliação:</p>
+        <ul>
+          <li>Organização do código(Quanto mais limpo melhor)</li>
+          <li>Nível de detalhismo(Quanto mais identico melhor)</li>
+          <li>Tempo de desenvolvimento(Seja sincero ao enviar o tempo gasto)</li>
+        </ul>
+
+        <p>Ao finalizar o teste, envie zipado o código para o e-mail com o tempo gasto e seu cv anexado.</p>
+        <p>Obrigado e boa sorte!</p>
+      </div>
+
+
+      <figure class="hero">
+        <img src="./assets/image3.webp" alt="Foto homem programando">
+        <figcaption>Foto homem programando - Freepik</figcaption>
+      </figure>
+    </section>
+
+    <section class="boxes">
+      <h2>Boxes de destaque</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="./assets/box/box1.webp" alt="Ilustração sobre tecnologias web modernas">
+              <figcaption>Tecnologias web em constante evolução</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="./assets/box/box2.webp" alt="Ilustração sobre tecnologias web modernas">
+              <figcaption>Conectando ideias com programação</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="./assets/box/box3.webp" alt="Imagem sobre interfaces modernas">
+              <figcaption> Interfaces modernas para soluções UX</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <figure>
+              <img src="./assets/box/box4.webp" alt="Imagem Desenvolvedor programando">
+              <figcaption>Desenvolvendo soluções em código</figcaption>
+            </figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>
+      <nav>
+        <ul class="menu-rodape">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Empresa</a></li>
+          <li><a href="#">Clientes</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2025 Grupo Ideal Trends. Todos os direitos reservados.</p>
+    </div>
+
+  </footer>
+
+
+  <script type="module" src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+</body>
+
+</html>
